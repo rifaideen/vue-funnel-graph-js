@@ -105,7 +105,7 @@ export default {
 
 | Name | Description | Payload |
 |--------|-------------|------|
-| `value-clicked` | When the value is cloicked | `{value, index}` |
+| `value-clicked` | When the value is clicked | `{value, index}` |
 
 ## Options
 
