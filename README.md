@@ -101,6 +101,11 @@ export default {
   }
 }
 ```
+## Events
+
+| Name | Description | Payload |
+|--------|-------------|------|
+| `value-clicked` | When the value is cloicked | `{value, index}` |
 
 ## Options
 

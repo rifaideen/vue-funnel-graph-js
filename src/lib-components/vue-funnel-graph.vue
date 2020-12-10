@@ -25,6 +25,7 @@
         >
             <div class="svg-funnel-js__label" :class="`label-${(index+1)}`"
                  v-for="(value, index) in valuesFormatted" :key="labels[index].toLowerCase().split(' ').join('-')"
+                 @click="$emit('value-clicked', {value, index})"
             >
                 <div class="label__value">{{ value }}</div>
                 <div class="label__title" v-if="labels">{{ labels[index] }}</div>
